@@ -1,0 +1,24 @@
+001+ PHP Fatal error:  function/class 'curl_exec' does not exists in Unknown on line 0
+002+ PHP Fatal error:  function/class 'mime_content_type' does not exists in Unknown on line 0
+003+ PHP Fatal error:  function/class 'prvd_readfile' already exists in Unknown on line 0
+004+ PHP Fatal error:  function/class 'json_decode' does not exists in Unknown on line 0
+001- add_filter hello_tag1
+002- my_add_filter hello_tag1
+003- my_add_filter hello_tag2
+004- my_add_filter hello_tag3
+005+ 
+006+ Fatal error: function/class 'curl_exec' does not exists in Unknown on line 0
+007+ 
+008+ Fatal error: function/class 'mime_content_type' does not exists in Unknown on line 0
+009+ 
+010+ Fatal error: function/class 'prvd_readfile' already exists in Unknown on line 0
+011+ 
+012+ Fatal error: function/class 'json_decode' does not exists in Unknown on line 0
+013+ 
+014+ Fatal error: Uncaught Error: Call to undefined function implode() in /home/zero/Desktop/OpenSourceSSRFuzz/zmark/tests/base.php:76
+015+ Stack trace:
+016+ #0 /home/zero/Desktop/OpenSourceSSRFuzz/zmark/tests/007.php(5): rope_end_handler(Array)
+017+ #1 /home/zero/Desktop/OpenSourceSSRFuzz/zmark/tests/007.php(10): add_filter('hello_tag1')
+018+ #2 /home/zero/Desktop/OpenSourceSSRFuzz/zmark/tests/007.php(20): add_action('hello_tag1')
+019+ #3 {main}
+020+   thrown in /home/zero/Desktop/OpenSourceSSRFuzz/zmark/tests/base.php on line 76

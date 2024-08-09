@@ -1,0 +1,9 @@
+// $Id$
+// vim:ft=javascript
+
+ARG_ENABLE("zmark", "enable zmark support", "no");
+
+if (PHP_zmark != "no") {
+	EXTENSION("zmark", "zmark.c");
+}
+

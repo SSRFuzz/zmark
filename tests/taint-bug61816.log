@@ -1,0 +1,24 @@
+
+---- EXPECTED OUTPUT
+bool(true)
+echo_handler:zmark: 'tainted string.\n' 1
+tainted string.
+bool(true)
+---- ACTUAL OUTPUT
+PHP Fatal error:  function/class 'curl_exec' does not exists in Unknown on line 0
+PHP Fatal error:  function/class 'mime_content_type' does not exists in Unknown on line 0
+PHP Fatal error:  function/class 'prvd_readfile' already exists in Unknown on line 0
+PHP Fatal error:  function/class 'json_decode' does not exists in Unknown on line 0
+
+Fatal error: function/class 'curl_exec' does not exists in Unknown on line 0
+
+Fatal error: function/class 'mime_content_type' does not exists in Unknown on line 0
+
+Fatal error: function/class 'prvd_readfile' already exists in Unknown on line 0
+
+Fatal error: function/class 'json_decode' does not exists in Unknown on line 0
+bool(true)
+echo_handler:zmark: 'tainted string.\n' 1
+tainted string.
+bool(true)
+---- FAILED

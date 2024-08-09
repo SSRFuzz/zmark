@@ -1,0 +1,19 @@
+
+---- EXPECTED OUTPUT
+Notice: Undefined variable: data in %sbug61163.php on line %d
+---- ACTUAL OUTPUT
+PHP Fatal error:  function/class 'curl_exec' does not exists in Unknown on line 0
+PHP Fatal error:  function/class 'mime_content_type' does not exists in Unknown on line 0
+PHP Fatal error:  function/class 'prvd_readfile' already exists in Unknown on line 0
+PHP Fatal error:  function/class 'json_decode' does not exists in Unknown on line 0
+
+Fatal error: function/class 'curl_exec' does not exists in Unknown on line 0
+
+Fatal error: function/class 'mime_content_type' does not exists in Unknown on line 0
+
+Fatal error: function/class 'prvd_readfile' already exists in Unknown on line 0
+
+Fatal error: function/class 'json_decode' does not exists in Unknown on line 0
+
+Notice: Undefined variable: data in /home/zero/Desktop/OpenSourceSSRFuzz/zmark/tests/taint-bug61163.php on line 6
+---- FAILED

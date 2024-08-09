@@ -1,0 +1,30 @@
+
+---- EXPECTED OUTPUT
+before rename
+string(6) "before"
+int(123)
+after rename
+string(5) "after"
+int(321)
+I am hello
+---- ACTUAL OUTPUT
+PHP Fatal error:  function/class 'curl_exec' does not exists in Unknown on line 0
+PHP Fatal error:  function/class 'mime_content_type' does not exists in Unknown on line 0
+PHP Fatal error:  function/class 'prvd_readfile' already exists in Unknown on line 0
+PHP Fatal error:  function/class 'json_decode' does not exists in Unknown on line 0
+
+Fatal error: function/class 'curl_exec' does not exists in Unknown on line 0
+
+Fatal error: function/class 'mime_content_type' does not exists in Unknown on line 0
+
+Fatal error: function/class 'prvd_readfile' already exists in Unknown on line 0
+
+Fatal error: function/class 'json_decode' does not exists in Unknown on line 0
+before rename
+string(6) "before"
+int(123)
+after rename
+string(5) "after"
+int(321)
+I am hello
+---- FAILED

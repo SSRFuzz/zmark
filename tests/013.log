@@ -1,0 +1,20 @@
+
+---- EXPECTED OUTPUT
+in init_method_call_handler say
+in class A->say()
+---- ACTUAL OUTPUT
+PHP Fatal error:  function/class 'curl_exec' does not exists in Unknown on line 0
+PHP Fatal error:  function/class 'mime_content_type' does not exists in Unknown on line 0
+PHP Fatal error:  function/class 'prvd_readfile' already exists in Unknown on line 0
+PHP Fatal error:  function/class 'json_decode' does not exists in Unknown on line 0
+
+Fatal error: function/class 'curl_exec' does not exists in Unknown on line 0
+
+Fatal error: function/class 'mime_content_type' does not exists in Unknown on line 0
+
+Fatal error: function/class 'prvd_readfile' already exists in Unknown on line 0
+
+Fatal error: function/class 'json_decode' does not exists in Unknown on line 0
+in init_method_call_handler say
+in class A->say()
+---- FAILED

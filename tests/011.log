@@ -1,0 +1,42 @@
+
+---- EXPECTED OUTPUT
+in echo_handler hello
+hello
+in echo_handler hello
+hello
+in echo_handler test
+test
+in echo_handler test
+test
+in echo_handler test
+test
+in echo_handler A
+A
+in echo_handler ArrayArray
+---- ACTUAL OUTPUT
+PHP Fatal error:  function/class 'curl_exec' does not exists in Unknown on line 0
+PHP Fatal error:  function/class 'mime_content_type' does not exists in Unknown on line 0
+PHP Fatal error:  function/class 'prvd_readfile' already exists in Unknown on line 0
+PHP Fatal error:  function/class 'json_decode' does not exists in Unknown on line 0
+
+Fatal error: function/class 'curl_exec' does not exists in Unknown on line 0
+
+Fatal error: function/class 'mime_content_type' does not exists in Unknown on line 0
+
+Fatal error: function/class 'prvd_readfile' already exists in Unknown on line 0
+
+Fatal error: function/class 'json_decode' does not exists in Unknown on line 0
+in echo_handler hello
+hello
+in echo_handler hello
+hello
+in echo_handler test
+test
+in echo_handler test
+test
+in echo_handler test
+test
+in echo_handler A
+A
+in echo_handler ArrayArray
+---- FAILED

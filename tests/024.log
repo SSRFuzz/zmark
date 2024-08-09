@@ -1,0 +1,46 @@
+
+---- EXPECTED OUTPUT
+string(5) "hello"
+array(3) {
+  [0]=>
+  string(2) "aa"
+  [1]=>
+  int(1)
+  [2]=>
+  array(2) {
+    [0]=>
+    string(1) "x"
+    [1]=>
+    int(2)
+  }
+}
+hello
+---- ACTUAL OUTPUT
+PHP Fatal error:  function/class 'curl_exec' does not exists in Unknown on line 0
+PHP Fatal error:  function/class 'mime_content_type' does not exists in Unknown on line 0
+PHP Fatal error:  function/class 'prvd_readfile' already exists in Unknown on line 0
+PHP Fatal error:  function/class 'json_decode' does not exists in Unknown on line 0
+
+Fatal error: function/class 'curl_exec' does not exists in Unknown on line 0
+
+Fatal error: function/class 'mime_content_type' does not exists in Unknown on line 0
+
+Fatal error: function/class 'prvd_readfile' already exists in Unknown on line 0
+
+Fatal error: function/class 'json_decode' does not exists in Unknown on line 0
+string(5) "hello"
+array(3) {
+  [0]=>
+  string(2) "aa"
+  [1]=>
+  int(1)
+  [2]=>
+  array(2) {
+    [0]=>
+    string(1) "x"
+    [1]=>
+    int(2)
+  }
+}
+hello
+---- FAILED

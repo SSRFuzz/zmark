@@ -1,0 +1,24 @@
+001+ PHP Fatal error:  function/class 'curl_exec' does not exists in Unknown on line 0
+002+ PHP Fatal error:  function/class 'mime_content_type' does not exists in Unknown on line 0
+003+ PHP Fatal error:  function/class 'prvd_readfile' already exists in Unknown on line 0
+004+ PHP Fatal error:  function/class 'json_decode' does not exists in Unknown on line 0
+005+ 
+006+ Fatal error: function/class 'curl_exec' does not exists in Unknown on line 0
+001- before rename
+002- string(6) "before"
+003- int(123)
+004- after rename
+005- string(5) "after"
+006- int(321)
+007+ 
+008+ Fatal error: function/class 'mime_content_type' does not exists in Unknown on line 0
+009+ 
+010+ Fatal error: function/class 'prvd_readfile' already exists in Unknown on line 0
+011+ 
+012+ Fatal error: function/class 'json_decode' does not exists in Unknown on line 0
+013+ before rename
+014+ string(6) "before"
+015+ int(123)
+016+ after rename
+017+ string(5) "after"
+018+ int(321)
