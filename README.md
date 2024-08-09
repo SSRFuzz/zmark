@@ -57,7 +57,9 @@ var_dump("test");
 
 run：
 
-`php -d "extension_dir=/tmp/modules/" -d "extension=zmark.so" -d "zmark.enable=1" -d "zmark.rename_functions=var_dump:_var_dump" test.php`
+```bash
+php -d "extension_dir=modules/" -d "extension=zmark.so" -d "zmark.enable=1" -d "zmark.rename_functions=var_dump:_var_dump" test.php
+```
 
 result:
 
