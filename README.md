@@ -25,6 +25,7 @@ zmark is a PHP7 extension that provides the following features：
 * It can mark string variables
 * It can hook most functions/classes
 * It can Hook parts of the opcodes
+* It support PHP 7.2.* and 7.4.* version
 
 ### Installation
 
@@ -316,6 +317,8 @@ then you should carefully determine whether the function can still be hooked.
 
 
 ### Ref
+
+Note: zmark was developed based on xmark and taint, and we appreciate the guidance provided by these previous works.
 
 * [taint](https://github.com/laruence/taint)
 * [xmark](https://github.com/SSRFuzz/xmark)
